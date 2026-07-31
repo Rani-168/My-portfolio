@@ -1,5 +1,4 @@
-﻿import { useState } from "react";
-import project1Image from "../assets/image1.png";
+﻿import project1Image from "../assets/image1.png";
 import project2Image from "../assets/image.png";
 import project3Image from "../assets/image2.png";
 
@@ -10,7 +9,7 @@ function Projects() {
       description: "E-commerce and admin system for mobile shopping with both online and offline customer management.",
       image: project1Image,
       github: "https://github.com/ranibhosale/smart-mobile-store",
-      liveDemo: "#",
+      liveDemo: "https://loquacious-entremet-889418.netlify.app/",
       tags: ["React.js", "Firebase", "Tailwind CSS"],
       features: [
         "Add to Cart with quantity control",
@@ -25,7 +24,7 @@ function Projects() {
       description: "Mobile app that analyzes ingredients and offers personalized health guidance using barcode scanning.",
       image: project2Image,
       github: "https://github.com/ranibhosale/nutriscan-health-analyzer",
-      liveDemo: "#",
+      liveDemo: "https://nutriscan-health-analyzer.netlify.app/",
       tags: ["Flutter", "Java", "Room"],
       features: [
         "Barcode scanning & ingredient analysis",
@@ -40,7 +39,7 @@ function Projects() {
       description: "Responsive web system for medicine availability management with AI chatbot support.",
       image: project3Image,
       github: "https://github.com/ranibhosale/medicine-supply-management",
-      liveDemo: "#",
+      liveDemo: "https://med-sup.netlify.app/",
       tags: ["Node.js", "MongoDB", "AI"],
       features: [
         "Medicine inventory management",
@@ -94,7 +93,7 @@ function Projects() {
                   GitHub
                 </a>
                 <a
-                  href="loquacious-entremet-889418.netlify.app"
+                  href={project.liveDemo}
                   target="_blank"
                   rel="noreferrer"
                   className="project-btn live-demo-btn"
