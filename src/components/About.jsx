@@ -39,6 +39,42 @@
           </div>
         </div>
       </div>
+
+      <div className="achievement-section">
+        <h3>Internship, Certifications & Achievements</h3>
+        <div className="achievement-cards">
+          <div className="achievement-card">
+            <h4>Internship</h4>
+            <p>
+              <strong>Java Full Stack Developer Internship</strong> at EduSkills Foundation | 6 Months
+            </p>
+            <ul>
+              <li>Developed and maintained Java web applications using Core Java, Servlets, JDBC, SQL, HTML, CSS, JavaScript, and REST APIs.</li>
+              <li>Implemented CRUD operations, integrated MySQL databases, and optimized SQL queries for efficient data management.</li>
+              <li>Collaborated in an Agile environment using Git/GitHub, participated in code reviews, and resolved backend issues.</li>
+              <li>Tested APIs with Postman and gained hands-on experience in the SDLC from development to deployment.</li>
+            </ul>
+          </div>
+          <div className="achievement-card">
+            <h4>Certifications</h4>
+            <ul>
+              <li><strong>Frontend Developer (React.js)</strong> – HackerRank (2025)</li>
+              <li><strong>Software Engineer Certification</strong> – HackerRank (2025)</li>
+              <li><strong>Problem Solving Certification</strong> – HackerRank (2025)</li>
+              <li><strong>Java Full Stack Developer Virtual Internship</strong> – EduSkills Foundation (2025)</li>
+              <li><strong>Artificial Intelligence Master Class</strong> – SkillDzire (2024)</li>
+            </ul>
+          </div>
+          <div className="achievement-card">
+            <h4>Achievements</h4>
+            <ul>
+              <li><strong>Problem Solving:</strong> Solved 75+ DSA problems on LeetCode covering core data structures and algorithms.</li>
+              <li><strong>1st Prize</strong> – Hackathon competition (Phishing URL Detection System)</li>
+              <li><strong>3rd Prize</strong> – Aveskar Problem-Solving Competition</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
