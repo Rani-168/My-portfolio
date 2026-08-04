@@ -9,7 +9,7 @@ function Projects() {
       description: "E-commerce and admin system for mobile shopping with both online and offline customer management.",
       image: project1Image,
       github: "https://github.com/ranibhosale/smart-mobile-store",
-      liveDemo: "https://loquacious-entremet-889418.netlify.app/",
+      liveDemo: "mobile-store-1234.netlify.app",
       tags: ["React.js", "Firebase", "Tailwind CSS"],
       features: [
         "Add to Cart with quantity control",
