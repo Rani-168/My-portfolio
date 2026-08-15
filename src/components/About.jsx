@@ -46,7 +46,7 @@
           <div className="achievement-card">
             <h4>Internship</h4>
             <p>
-              <strong>Java Full Stack Developer Internship</strong> at EduSkills Foundation | 6 Months
+              <strong>Java Full Stack Developer Internship</strong> at Unified Mentor Private Limited  | 6 Months
             </p>
             <ul>
               <li>Developed and maintained Java web applications using Core Java, Servlets, JDBC, SQL, HTML, CSS, JavaScript, and REST APIs.</li>

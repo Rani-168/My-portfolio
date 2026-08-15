@@ -22,7 +22,7 @@ function Hero() {
           <h2>Developer</h2>
           <p>I build modern, responsive and user-friendly web applications using Java, HTML, CSS, JavaScript,ReactJs, MySQL.</p>
           <div className="hero-actions">
-            <a className="primary-btn" href="src/Resume (3).pdf" download>Download Resume</a>
+            <a className="primary-btn" href="src/Resume.pdf" download>Download Resume</a>
             <a className="secondary-btn" href="#contact">Contact Me</a>
           </div>
           <div className="hero-social">
