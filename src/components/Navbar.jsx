@@ -1,7 +1,14 @@
 ﻿import { useState } from "react";
 
-function Navbar() {
+function Navbar({ onChatbotClick }) {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleChatClick = () => {
+    setMenuOpen(false);
+    if (onChatbotClick) {
+      onChatbotClick();
+    }
+  };
 
   return (
     <nav className="navbar">
@@ -23,7 +30,12 @@ function Navbar() {
          <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
          <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
          <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+         <li><button className="nav-chat-btn" onClick={handleChatClick} title="Chat with AI Assistant">🐧 Chat</button></li>
       </ul>
+
+      <button className="nav-chat-icon-btn" onClick={handleChatClick} title="Chat with AI Assistant">
+        🐧
+      </button>
 
       <a className="nav-button" href="#contact" onClick={() => setMenuOpen(false)}>Hire Me</a>
     </nav>

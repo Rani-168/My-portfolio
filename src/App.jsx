@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -10,6 +10,14 @@ import Chatbot from "./components/Chatbot";
 import "./App.css";
 
 function App() {
+  const chatbotRef = useRef(null);
+
+  const handleChatbotClick = () => {
+    if (chatbotRef.current) {
+      chatbotRef.current.openChat();
+    }
+  };
+
   useEffect(() => {
     const revealItems = document.querySelectorAll(".reveal");
     const observer = new IntersectionObserver(
@@ -30,14 +38,14 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar onChatbotClick={handleChatbotClick} />
       <Hero />
       <About />
       <Projects />
       <Skills />
       <Contact />
       <Footer />
-      <Chatbot />
+      <Chatbot ref={chatbotRef} />
     </>
   );
 }

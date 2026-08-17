@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, forwardRef, useImperativeHandle } from "react";
 import { generateResponse } from "../data/chatbotKnowledge";
 import "./Chatbot.css";
 
-function Chatbot() {
+const Chatbot = forwardRef((props, ref) => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
     {
@@ -15,6 +15,13 @@ function Chatbot() {
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
+
+  // Expose openChat method to parent component
+  useImperativeHandle(ref, () => ({
+    openChat: () => {
+      setIsOpen(true);
+    },
+  }));
 
   // Auto-scroll to latest message
   const scrollToBottom = () => {
@@ -181,6 +188,8 @@ function Chatbot() {
       </div>
     </>
   );
-}
+});
+
+Chatbot.displayName = "Chatbot";
 
 export default Chatbot;
