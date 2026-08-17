@@ -5,7 +5,7 @@
         <div>
           <h2>About Me</h2>
           <p>
-            Final-year B.Tech Computer Engineering student passionate about Java Full Stack Development, Spring Boot, React.js, and AI-powered applications.
+            B.Tech Computer Engineering Graduate(2026) passionate about Java Full Stack Development, Spring Boot, React.js, and AI-powered applications.
           </p>
         </div>
       </div>
@@ -13,7 +13,7 @@
       <div className="about-grid">
         <div className="about-copy">
           <p>
-            I'm a final-year B.Tech Computer Engineering student with a strong interest in Java Full Stack Development, Spring Boot, React.js, and AI-powered applications. I enjoy designing and developing scalable, responsive web applications that solve real-world problems.
+            B.Tech Computer Engineering Graduate(2026) with a strong interest in Java Full Stack Development, Spring Boot, React.js, and AI-powered applications. I enjoy designing and developing scalable, responsive web applications that solve real-world problems.
           </p>
           <p>
             I have completed multiple academic and personal projects, including AI-based solutions and full-stack web applications, and I am continuously improving my skills in Data Structures, System Design, and Cloud technologies. I am currently seeking opportunities as a Java Full Stack Developer where I can contribute, learn, and grow as a software engineer.
