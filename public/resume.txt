@@ -1,22 +1,20 @@
-Rani
-Java Full Stack Developer
+Rani Bhosale
+Entry-Level Java Full Stack Developer
 
 Professional Summary
-Experienced Java Full Stack Developer with strong skills in building scalable web applications using Java, Spring Boot, React, REST APIs, and modern database technologies.
+Final-year B.Tech Computer Engineering student with a six-month Java Full Stack internship and practical experience building responsive web applications using Java, Spring Boot, React.js, REST APIs, SQL, and Git.
 
 Technical Skills
-- Java, Spring Boot, REST APIs, Microservices
-- React, JavaScript, HTML, CSS
-- MySQL, MongoDB, Docker, Git, AWS
+- Java, Spring Boot, Servlets, JDBC, REST APIs
+- React.js, JavaScript, HTML, CSS
+- MySQL, MongoDB, Firebase, Git, GitHub, Postman
 
 Experience
-- Full Stack Developer: Building scalable web applications and modern user interfaces
-- Backend Developer: Designing APIs, database integration, and server-side architecture
-- Junior Software Developer: Developing web solutions and improving application quality
+- Java Full Stack Developer Intern, Unified Mentor Private Limited: Developed Java web applications, CRUD workflows, MySQL integrations, and REST API testing during a six-month internship.
 
 Education & Certifications
-- Software Engineering and Development Foundation
-- Continuous professional learning in full-stack development and cloud technologies
+- B.Tech Computer Engineering, graduating 2026
+- HackerRank certifications in React.js, Software Engineering, and Problem Solving
 
 Contact
-Email: hello@example.com
+Email: ranibhosale168@gmail.com

@@ -1,14 +1,15 @@
 ﻿function Skills() {
   const skills = [
     "Java",
-    "HTML",
-    "CSS",
+    "Spring Boot",
+    "REST APIs",
     "JavaScript",
     "React.js",
-    "Node.js",
-    "MongoDB",
+    "HTML & CSS",
     "MySQL",
-    "Git & GitHub"
+    "MongoDB",
+    "Git & GitHub",
+    "Postman"
   ];
 
   return (

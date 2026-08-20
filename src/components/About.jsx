@@ -5,7 +5,7 @@
         <div>
           <h2>About Me</h2>
           <p>
-            B.Tech Computer Engineering Graduate(2026) passionate about Java Full Stack Development, Spring Boot, React.js, and AI-powered applications.
+            Final-year B.Tech Computer Engineering student targeting entry-level Java Full Stack Developer roles.
           </p>
         </div>
       </div>
@@ -13,10 +13,10 @@
       <div className="about-grid">
         <div className="about-copy">
           <p>
-            B.Tech Computer Engineering Graduate(2026) with a strong interest in Java Full Stack Development, Spring Boot, React.js, and AI-powered applications. I enjoy designing and developing scalable, responsive web applications that solve real-world problems.
+            I am a final-year B.Tech Computer Engineering student focused on Java Full Stack Development, Spring Boot, React.js, REST APIs, and SQL. I enjoy building responsive applications that solve practical problems.
           </p>
           <p>
-            I have completed multiple academic and personal projects, including AI-based solutions and full-stack web applications, and I am continuously improving my skills in Data Structures, System Design, and Cloud technologies. I am currently seeking opportunities as a Java Full Stack Developer where I can contribute, learn, and grow as a software engineer.
+            Through a six-month Java Full Stack internship and academic projects, I have worked with CRUD workflows, database integration, API testing, and Git-based development. I am seeking an entry-level Java Full Stack opportunity where I can contribute while continuing to grow as a software engineer.
           </p>
         </div>
 
@@ -27,7 +27,7 @@
           </div>
           <div className="detail-row">
             <span>Email</span>
-            <strong>ranibhosale168@email.com</strong>
+            <strong>ranibhosale168@gmail.com</strong>
           </div>
           <div className="detail-row">
             <span>Location</span>
@@ -46,7 +46,7 @@
           <div className="achievement-card">
             <h4>Internship</h4>
             <p>
-              <strong>Java Full Stack Developer Internship</strong> at Unified Mentor Private Limited  | 6 Months
+              <strong>Java Full Stack Developer Intern</strong> at Unified Mentor Private Limited | 6 months
             </p>
             <ul>
               <li>Developed and maintained Java web applications using Core Java, Servlets, JDBC, SQL, HTML, CSS, JavaScript, and REST APIs.</li>

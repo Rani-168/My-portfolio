@@ -24,6 +24,7 @@ function Projects() {
       description: "Mobile app that analyzes ingredients and offers personalized health guidance using barcode scanning.",
       image: project2Image,
       github: "https://drive.google.com/file/d/1QeUqmgLfJRrXrreMuGxNR4WgkQlb5Poc/view?ts=6a65ee03",
+      githubLabel: "Project Files",
       liveDemo: "https://nutriscan-health-analyzer.netlify.app/",
       tags: ["Flutter", "Java", "Room"],
       features: [
@@ -90,7 +91,7 @@ function Projects() {
                   rel="noreferrer"
                   className="project-btn github-btn"
                 >
-                  GitHub
+                  {project.githubLabel || "GitHub"}
                 </a>
                 <a
                   href={project.liveDemo}

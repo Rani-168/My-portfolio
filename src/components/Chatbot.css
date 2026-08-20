@@ -534,28 +534,3 @@
     color: #888;
   }
 }
-
-  .chatbot-input:focus {
-    border-color: #667eea;
-  }
-
-  .chatbot-input-area {
-    background: #2a2a2a;
-    border-color: #444;
-  }
-
-  .chatbot-suggestions {
-    background: #2a2a2a;
-    border-color: #444;
-  }
-
-  .suggestion-btn {
-    background: #333;
-    border-color: #444;
-    color: #667eea;
-  }
-
-  .suggestion-btn:hover {
-    background: #3a3a3a;
-  }
-}

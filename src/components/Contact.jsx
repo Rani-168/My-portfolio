@@ -1,9 +1,10 @@
 ﻿function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
-    // demo handler — in real app you'd send this to a backend
-    alert('Thanks — your message was sent (demo)');
-    e.target.reset();
+    const formData = new FormData(e.currentTarget);
+    const subject = formData.get("subject") || "Portfolio enquiry";
+    const body = `Name: ${formData.get("name")}\nEmail: ${formData.get("email")}\n\n${formData.get("message")}`;
+    window.location.href = `mailto:ranibhosale168@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   }
 
   return (
@@ -17,7 +18,7 @@
           <p>Have a project in mind or want to work together? Feel free to reach out to me.</p>
           <div className="contact-item">
             <strong>Email</strong>
-            <span>ranibhosale168@email.com</span>
+            <a href="mailto:ranibhosale168@gmail.com">ranibhosale168@gmail.com</a>
           </div>
           <div className="contact-item">
             <strong>Phone</strong>

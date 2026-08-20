@@ -3,7 +3,7 @@ export const portfolioData = {
   name: "Rani Bhosale",
   title: "Java Full Stack Developer",
   location: "Pune, Maharashtra",
-  education: "B.Tech Computer Engineering (Final Year)",
+  educationSummary: "B.Tech Computer Engineering (Final Year)",
   
   about: "Final-year B.Tech Computer Engineering student passionate about Java Full Stack Development, Spring Boot, React.js, and AI-powered applications. I enjoy designing and developing scalable, responsive web applications that solve real-world problems.",
   
@@ -95,7 +95,7 @@ export const portfolioData = {
   ],
   
   contact: {
-    email: "ranibhosale168@email.com",
+    email: "ranibhosale168@gmail.com",
     github: "https://github.com/Rani-168",
     linkedin: "https://www.linkedin.com/in/rani-bhosale-833945290/",
     resumeUrl: "src/Resume.pdf"
@@ -115,7 +115,7 @@ export const generateResponse = (userQuery) => {
   
   // Name / About Yourself
   if (query.match(/\b(what'?s? your name|who are you|tell me about yourself|who is rani|your name|about you)\b/)) {
-    return `📌 My name is ${portfolioData.name}, a ${portfolioData.education} student located in ${portfolioData.location}.\n\n${portfolioData.about}\n\nI'm passionate about building real-world solutions and continuously learning new technologies!`;
+    return `📌 My name is ${portfolioData.name}, a ${portfolioData.educationSummary} student located in ${portfolioData.location}.\n\n${portfolioData.about}\n\nI'm passionate about building real-world solutions and continuously learning new technologies!`;
   }
   
   // Location
